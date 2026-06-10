@@ -59,6 +59,7 @@
     "zod-validation-error": "^3.4.0"
   },
   "dependencies": {
+    "expo-build-properties": "~1.0.10",
     "expo-clipboard": "~8.0.8",
     "expo-file-system": "^56.0.7",
     "lucide-react-native": "^1.17.0"

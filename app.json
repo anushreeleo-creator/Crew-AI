@@ -48,7 +48,21 @@
         }
       ],
       "expo-web-browser",
-      "expo-image-picker"
+      "expo-image-picker",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "packagingOptions": {
+              "resources": {
+                "excludes": [
+                  "**/META-INF/versions/9/OSGI-INF/MANIFEST.MF"
+                ]
+              }
+            }
+          }
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
